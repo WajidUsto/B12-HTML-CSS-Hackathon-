@@ -71,17 +71,33 @@ nav{
     display: none;
 }
 
-#main-section-outside{
+#main-section-outside ,#services-section{
     margin: 0 50px;
 }
 
-
-
-
-
-
-
-
+#main-banner-icon-imgs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#services-btn{
+    padding: 8px 25px;
+    border-radius: 16px;
+    color: black;
+    font-size: 25px;
+    background-color: #B9FF66;
+    font-weight: 600;
+}
+#services-section{
+    margin-top: 80px ;
+    margin-bottom: 80px ;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+#services-section p{
+    font-size: 18px;
+}
 
 
 /* Media Queries */
